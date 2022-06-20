@@ -77,10 +77,11 @@ call plug#end()
 " colo apprentice
 " My favorite: nordfox
 " colo nordfox
-colo gruvbox
+  colo gruvbox
 " colo kanagawa
 " colo onedark
 " let g:airline_theme='base16_nord'
+  let g:airline_theme='automatic'
 " let g:airline_theme='base16_gruvbox_dark_medium'
 " }}}
 

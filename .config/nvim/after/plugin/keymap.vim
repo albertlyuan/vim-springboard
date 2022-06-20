@@ -62,12 +62,12 @@
 
 " dan-vim stuff
 " -----------------------------------------------------------------------
-" inoremap jk                 <Esc>
+inoremap jk                 <Esc>
 
 " [f]ind things
 " -----------------------------------------------------------------------
- nnoremap <leader>ff         :Files<CR>
- nnoremap <leader>fb         :Buffers<CR>
+ nnoremap se                 :Files<CR>
+ nnoremap so                 :Buffers<CR>
  nnoremap <leader>fg         :GitFiles<CR>
  nnoremap <leader>ft         :Tags<CR>
  nnoremap <leader>fr         :Rg<CR>
