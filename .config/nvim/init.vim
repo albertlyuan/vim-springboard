@@ -76,11 +76,11 @@ call plug#end()
 " Dan's color theme: Apprentice
 " colo apprentice
 " My favorite: nordfox
-colo nordfox
-" colo gruvbox
+" colo nordfox
+colo gruvbox
 " colo kanagawa
 " colo onedark
-let g:airline_theme='base16_nord'
+" let g:airline_theme='base16_nord'
 " let g:airline_theme='base16_gruvbox_dark_medium'
 " }}}
 

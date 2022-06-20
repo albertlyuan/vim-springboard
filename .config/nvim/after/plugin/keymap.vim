@@ -5,19 +5,19 @@
 " e.g. /[s will take you to the settings navigation section.
 
 " Faster scrolling
-nnoremap <C-e>                2<C-E>
-nnoremap <C-y>                2<C-Y>
+  nnoremap <C-e>                2<C-E>
+  nnoremap <C-y>                2<C-Y>
 
 " Make spacebar the leader key
-let mapleader=" "
-nnoremap <Space>              <Nop>
+  let mapleader=" "
+  nnoremap <Space>              <Nop>
 
 " Case-insensitive search
-" nnoremap <leader>/            /\c<Left><Left>
+  nnoremap <leader>/            /\c<Left><Left>
 
 " Make `cgn` operate on the currently selected word
 " https://vi.stackexchange.com/a/18895
-nnoremap <silent>cgn          :<C-u>let @/=expand('<cword>')<cr>cgn
+  nnoremap <silent>cgn          :<C-u>let @/=expand('<cword>')<cr>cgn
 
 " Capitalize last word while inserting text
 " inoremap <C-j>                <Esc>gUiwea
@@ -31,8 +31,8 @@ nnoremap <silent>cgn          :<C-u>let @/=expand('<cword>')<cr>cgn
 
 " [s]ettings navigation
 " -----------------------------------------------------------------------
-" nnoremap <silent><leader>si   :<C-u>e $MYVIMRC<CR>
-" nnoremap <silent><leader>sk   :<C-u>e ~/.config/nvim/after/plugin/keymap.vim<CR>
+ nnoremap <silent><leader>si   :<C-u>e $MYVIMRC<CR>
+ nnoremap <silent><leader>sk   :<C-u>e ~/.config/nvim/after/plugin/keymap.vim<CR>
 " nnoremap <silent><leader>sap  :<C-u>e ~/.config/nvim/after/plugin<CR>
 " nnoremap <silent><leader>saf  :<C-u>e ~/.config/nvim/after/ftplugin<CR>
 
@@ -60,12 +60,15 @@ nnoremap <silent>cgn          :<C-u>let @/=expand('<cword>')<cr>cgn
 " vnoremap <leader>cv           "+p
 " vnoremap <leader>cc           "+y
 
+" dan-vim stuff
+" -----------------------------------------------------------------------
+" inoremap jk                 <Esc>
+
 " [f]ind things
 " -----------------------------------------------------------------------
-" nnoremap <leader>ff         :Files<CR>
-" nnoremap <leader>fb         :Buffers<CR>
-" nnoremap <leader>fg         :GitFiles<CR>
-" nnoremap <leader>ft         :Tags<CR>
-" nnoremap <leader>fr         :Rg<CR>
-" nnoremap <leader>fa         :<C-u>e ~/.aws/credentials<CR>
-
+ nnoremap <leader>ff         :Files<CR>
+ nnoremap <leader>fb         :Buffers<CR>
+ nnoremap <leader>fg         :GitFiles<CR>
+ nnoremap <leader>ft         :Tags<CR>
+ nnoremap <leader>fr         :Rg<CR>
+ nnoremap <leader>fa         :<C-u>e ~/.aws/credentials<CR>
