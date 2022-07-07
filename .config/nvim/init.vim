@@ -16,7 +16,7 @@ set nowrap
 set hlsearch
 set wildignore=*.o,*.obj,*.db-whl,*.db-shm,*node_modules*,*.venv*,tags,.*.un~,*.pyc
 set list listchars=tab:>\ ,trail:·
-set mouse=a
+"set mouse=a
 set showcmd
 " }}}
 
@@ -81,7 +81,7 @@ call plug#end()
 " colo kanagawa
 " colo onedark
 " let g:airline_theme='base16_nord'
-  let g:airline_theme='automatic'
+  let g:airline_theme='luna'
 " let g:airline_theme='base16_gruvbox_dark_medium'
 " }}}
 
